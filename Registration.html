@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Live Virtual Class</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="JS/1.js"></script>
+        <script src="JS/marks.js"></script>
+    </head>
+    <body background="aj.jpg">
+        <header>
+            <h1>Live Virtual Class</h1>
+        </header>
+        <br>
+        <nav>
+           <ul display:inline>
+               <li><a href="Index.html">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="PreTest.html">PreTest</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="Gallery.html">Gallery</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="Registration.html">Registration</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="Contact.html">Contact</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="Quiz.html">Quiz</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           </ul> 
+        </nav>
+        <div class="row">
+                <div class="column left">
+                    <section>
+                        <form method="GET" name="form5">
+                            Registration no.&nbsp;&nbsp;&nbsp;<input type="text" id="rg" name="rg" onkeypress="jfun6()"><br>
+                            Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="nm" onfocus="jfun7()"><br>
+                            Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="vd" onkeyup="jfun13()"><span id="nm1">*</span>
+                        </form>
+                        <br><br>
+                        <form name="form6" method="GET">
+                            Your Country:<br>
+                                <select name="slt2" id="slt2" onchange="jfun8()">
+                                        <option value="india">India</option>
+                                        <option value="nepal">Nepal</option>
+                                        <option value="china">China</option>
+                                    </select><br>
+                                    <input type="text" value="You Selected india" name="c1" id="c1">
+                        </form>
+                    </section>
+                </div>
+                <div class="column middle">
+                        <div class=ar>
+                                <h1>Registration Form</h1><br>
+                                <form method=get name="form1" action="Index.html" onsubmit="return validate()">
+                                 <table class=pqr  align="center" border="1">
+                                     <tr>
+                                         <td><h2>Name</h2><input type="text" name="txt1" placeholder="Enter your name" onblur="jfun3()"></td>
+                                     </tr>
+                                     <tr>
+                                        <td><h2>Gender</h2><input type="radio" name="r1" value="male">   Male
+                                        <input type="radio" name="r2" value="female">   Female </td>
+                                    </tr>
+                                    <tr>
+                                        <td><h2>Course</h2><input type="checkbox" name="c1">   Angular
+                                        <input type="checkbox" name="c2">   Java
+                                        <input type="checkbox" name="c3">   Dot Net</td>
+                                    </tr>
+                                    <tr>
+                                        <td><h2>Country</h2><select name="slt1">
+                                            <option value="india">India</option>
+                                            <option value="nepal">Nepal</option>
+                                            <option value="china">China</option>
+                                        </select>
+                                        </td>
+                                        </tr>
+                                        <tr>
+                                           <td><h2>Remarks</h2>
+                                                <textarea rows="3" cols="25">
+                                           </textarea>
+                                        </td> 
+                                        </tr>
+                                        <tr>
+                                          <td><input type="submit" value="Submit"></td>  
+                                        </tr>
+                                 </table>
+                             </form>
+                            </div>
+                </div>
+                <div class="column right">
+                  
+                </div>
+        </div>
+              <footer>
+                    <p>Posted by: Anuj Rawat</p>
+            </footer>
+    </body>
+</html>

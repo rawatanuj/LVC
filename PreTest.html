@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Live Virtual Class</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="JS/marks.js"></script>
+    </head>
+    <body background="aj.jpg">
+        <header>
+            <h1>Live Virtual Class</h1>
+        </header>
+        <br>
+        <nav>
+           <ul display:inline>
+               <li><a href="Index.html">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="PreTest.html">PreTest</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="Gallery.html">Gallery</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="Registration.html">Registration</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="Contact.html">Contact</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <li><a href="Quiz.html">Quiz</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           </ul> 
+        </nav>
+        <div class="row">
+                <div class="column left">
+                </div>
+                <div class="column middle">
+                        <section>
+                                <div class=ar1>
+                                <h1 onmouseover="jfun4()" onmouseout="jfun5()">Student Marks:</h1>
+                               <form method="GET" name=form1>
+                             English:<input type="text" id="txt1" name="t1" placeholder="Enter marks">
+                             Science:<input type="text" id="txt2" name="t2" placeholder="Enter marks">
+                             Hindi:&nbsp;&nbsp;&nbsp;<input type="text" id="txt3" name="t3" placeholder="Enter marks">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             Maths:<input type="text" id="txt4" name="t4" placeholder="Enter marks"><br><br><br>
+                             Result:<br>
+                             TotalMarks:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="tm" readonly><br>
+                             Percentage:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="pr" readonly><br>
+                             HighestScore:&nbsp;<input type="text" id="hs" readonly><br>
+                             <input type="button" value="Result" onclick="return jfun1()">
+                             <input type="button" value="Prompt" onclick="return jfun10()">
+                            </form>
+                        </div>
+                              </section>
+                </div>
+                <div class="column right">
+                </div>
+        </div>
+              <footer>
+                    <p>Posted by: Anuj Rawat</p>
+            </footer>
+    </body>
+</html>
