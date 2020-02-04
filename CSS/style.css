@@ -1,0 +1,107 @@
+header{
+    border:1px solid black;
+    background-color:lightcoral;
+    text-align: center;
+    padding: 1%;
+    border-radius: 25px;
+}
+footer{
+    border:1px solid black;
+    background-color:lightcoral;
+    text-align: center;
+    padding: 1%;
+    border-radius: 25px;
+}
+div.ar{
+  width: 100%;
+  border: 5px solid cyan;
+  padding: 1%;
+  border-radius:5%;
+  box-shadow: 50%;
+}
+div.ar1{
+  width: 8-0%;
+  height:100%;
+  border: 5px solid cyan;
+  padding: 1%;
+  border-radius:5%;
+  box-shadow: 50%;
+}
+
+div.op:hover{
+opacity:0.5;
+}
+.test{
+width:300px;
+height:375px;
+background:yellow;
+transition:width 2s;
+}
+.test:hover{
+  width:500px;
+}
+.an{
+  width: 500px;
+  height:375px;
+  background-image: url('Assests/Images/an.jpg');
+}
+.an:hover{
+  background-image: url('Assests/Images/an4.jpg');
+}
+
+table.pqr{
+  width:100%;
+  border:15px solid transparent;
+  border-radius: 25%;
+  border-collapse: collapse;
+  }
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+  display:inline;
+}
+
+nav{
+    border:1px solid black;
+    padding: 1%;
+    background-color:lightcyan;
+    font-size:x-large;
+    border-radius:25px;
+}
+section{
+    display:inline;
+    font-size: x-large;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .left, .right {
+    width: 30%;
+  }
+  
+  .middle {
+    width: 40%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  a{
+    padding-right:5%;
+    padding-left:3%;
+  }
+  a:hover {
+    color: hotpink;
+    text-decoration: blanchedalmond;
+  }
